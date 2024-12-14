@@ -9,3 +9,6 @@ spring:
     url: jdbc:mysql://localhost:3306/user-center
     username: root
     password: azure
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: false
